@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Courgette;
+  src: url("../../public/fonts/Courgette/Courgette-Regular.ttf");
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -15773,30 +15778,38 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-header {
+body {
+  margin: 0%;
+}
+
+body header {
   background: linear-gradient(rgba(22, 20, 20, 0.877), rgba(0, 0, 0, 0.45)), url("../images/banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
 }
 
-header nav .link {
-  border-top: gray solid 2px;
-  border-bottom: gray solid 2px;
+body header nav .link {
+  border-top: #6c757d solid 2px;
+  border-bottom: #6c757d solid 2px;
   width: 35%;
+  margin: 2.5% 0% 1% 0%;
 }
 
-header nav .link a {
-  padding: 3% 3%;
+body header nav .link a {
+  padding: 2%;
   color: #fff;
   font-weight: bold;
 }
 
-header nav .link a:hover {
+body header nav .link a:hover {
   background-color: #dc3545;
 }
 
-header nav .logo {
-  padding: 1% 2%;
+body header nav .logo {
   width: 12%;
+}
+
+body header nav .logo a {
+  padding-bottom: 0.5%;
 }
