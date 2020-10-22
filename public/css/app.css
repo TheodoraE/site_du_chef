@@ -15783,10 +15783,10 @@ body {
 }
 
 body header {
-  background: linear-gradient(rgba(22, 20, 20, 0.877), rgba(0, 0, 0, 0.45)), url("../images/banner1.jpg");
+  background: linear-gradient(rgba(22, 20, 20, 0.877), rgba(0, 0, 0, 0.849)), url("../images/banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 100vh;
 }
 
 body header nav .link {
@@ -15812,4 +15812,34 @@ body header nav .logo {
 
 body header nav .logo a {
   padding-bottom: 0.5%;
+}
+
+body header #carouselExampleSlidesOnly div {
+  height: 80vh;
+}
+
+body header #carouselExampleSlidesOnly div .slide p {
+  color: #fff;
+  font-size: 50px;
+  font-family: Courgette;
+  width: 65%;
+}
+
+body header #carouselExampleSlidesOnly div .slide .grand {
+  font-size: 70px;
+}
+
+body header #carouselExampleSlidesOnly div .slide .rouge {
+  color: #dc3545;
+}
+
+body header #carouselExampleSlidesOnly div .slide .boutons .bouton {
+  font-weight: light;
+  border: none;
+  border-radius: 30px;
+}
+
+body header #carouselExampleSlidesOnly div .slide .boutons .boutonR {
+  background-color: #dc3545;
+  color: #fff;
 }
