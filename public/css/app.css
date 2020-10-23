@@ -15869,3 +15869,17 @@ body header .bottomarrondi {
 .contenu1 {
   background-image: url("../../public/images/main_bg.jpg");
 }
+
+.contenu1 .titremenu h1 {
+  font-family: Courgette;
+  margin-bottom: 0%;
+}
+
+.contenu1 .titremenu h1 span {
+  color: #dc3545;
+  font-size: 50px;
+}
+
+.contenu1 .titremenu h1 span #list-tab {
+  font-family: Courgette;
+}
