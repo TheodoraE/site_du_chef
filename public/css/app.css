@@ -15823,8 +15823,8 @@ body header #carouselExampleSlidesOnly ol li {
 
 body header #carouselExampleSlidesOnly ol .active {
   border: 4px #343a40 solid;
-  width: 10px;
-  height: 10px;
+  width: 13px;
+  height: 13px;
 }
 
 body header #carouselExampleSlidesOnly div {
@@ -15864,4 +15864,8 @@ body header .bottomarrondi {
   height: 10%;
   top: 99%;
   background-repeat: repeat-x;
+}
+
+.contenu1 {
+  background-image: url("../../public/images/main_bg.jpg");
 }
