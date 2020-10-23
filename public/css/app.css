@@ -15791,8 +15791,8 @@ body header {
 }
 
 body header nav .divlink {
-  border-top: #6c757d solid 2px;
-  border-bottom: #6c757d solid 2px;
+  border-top: #c8cccf solid 2px;
+  border-bottom: #c8cccf solid 2px;
   width: 35%;
   margin: 2.5% 0% 1% 0%;
 }
@@ -15880,6 +15880,29 @@ body header .bottomarrondi {
   font-size: 50px;
 }
 
-.contenu1 .titremenu h1 span #list-tab {
+.contenu1 div .boutonsliste a {
   font-family: Courgette;
+  border: none;
+}
+
+.contenu1 div .boutonsliste a i {
+  color: #c8cccf;
+}
+
+.contenu1 div .boutonsliste a span {
+  font-size: 25px;
+  color: #343a40;
+}
+
+.contenu1 div .boutonsliste .active {
+  border-right: 5px #dc3545 solid;
+}
+
+.contenu1 div .boutonsliste .active i {
+  color: #dc3545;
+}
+
+.card-img {
+  border-radius: 50%;
+  border: 5px #c8cccf solid;
 }
