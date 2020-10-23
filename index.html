@@ -10,27 +10,33 @@
     
     <header>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-light text-white">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <div class="navbar-nav mr-0 mt-2 mt-lg-0 w-100">
-                    <div class="nav-item active ul m-0 w-100 row align-items-center justify-content-center">
-                        <div class="link row p-0">    
-                            <a class="nav-link w-25 text-center" href="#">HOME <span class="sr-only">(current)</span></a>
-                            <a class="nav-link w-25 text-center" href="#">ABOUT US <span class="sr-only">(current)</span></a>
-                            <a class="nav-link w-25 text-center" href="#">MENU LIST <span class="sr-only">(current)</span></a>
-                            <a class="nav-link w-25 text-center" href="#">TEAM <span class="sr-only">(current)</span></a>
+                    <div class="nav-item active ul m-0 w-100 row align-items-center justify-content-end">
+                        <div class="divlink row w-75 p-0">    
+                            <a class="link nav-link w-25 text-white text-center" href="#">HOME <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link w-25 text-white text-center" href="#">ABOUT US <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link w-25 text-white text-center" href="#">MENU LIST <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link w-25 text-white text-center" href="#">TEAM <span class="sr-only">(current)</span></a>
                         </div>
-                        <div class="nav-item logo active row m-0 justify-content-center">
-                            <a class="nav-link" href="#"><img src="./public/images/logo.png" alt=""> <span class="sr-only">(current)</span></a>
-                        </div>
-                        <div class="link row p-0">
-                            <a class="nav-link w-25 text-center" href="#">RESERVATION <span class="sr-only">(current)</span></a>
-                            <a class="nav-link w-25 text-center" href="#">BLOG <span class="sr-only">(current)</span></a>
-                            <a class="nav-link w-25 text-center" href="#">TESTIMONIALS <span class="sr-only">(current)</span></a>
-                            <a class="nav-link w-25 text-center" href="#">CONTACT US <span class="sr-only">(current)</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item logo active row m-0 justify-content-center">
+                <a class="nav-link" href="#"><img src="./public/images/logo.png" alt=""> <span class="sr-only">(current)</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="navbar-nav mr-0 mt-2 mt-lg-0 w-100">
+                    <div class="nav-item active ul m-0 w-100 row align-items-center">
+                        <div class="divlink row w-75 p-0">
+                            <a class="link nav-link w-25 text-white text-center" href="#">TESTIMONIALS <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link w-25 text-white text-center" href="#">RESERVATION <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link w-25 text-white text-center" href="#">CONTACT US <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link w-25 text-white text-center" href="#">BLOG <span class="sr-only">(current)</span></a>
                         </div>
                     </div>
                 </div>
@@ -38,6 +44,11 @@
         </nav>
         <!-- Carousel -->
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
                 <!-- 1ère slide -->
                 <div class="slide carousel-item active">
@@ -69,48 +80,39 @@
                         </div>                 
                     </div>
                 </div>
-
-
-                <!-- <div class="slide carousel-item active">
-                    <div class="container">
-                        <div class="title my-lg-2 d-flex flex-column align-items-center justify-content-center">
-                            <p class="text-center"> Whatever your <span class="grand">OCCASION, </span> <span class="grand rouge">TASTE</span> <span class="grand">makes</span> it one to <span class="grand">remember!</span></p>
-                            <div class=" mt-lg-3">
-                                <button class=" bouton py-3 px-4 mx-3">PURCHASE THEME</button>
-                                <button class="bouton boutonR py-3 px-4 mx-3">LEARN MORE</button>
-                            </div>
-                        </div>                        
-                    </div>
-                </div> -->
-                <!-- 2ème slide -->
-                <!-- <div class="slide carousel-item">
-                    <div class="container d-flex flex-column">
-                        <div class="title my-lg-2 d-flex align-items-end justify-content-center">
-                            <p class="text-center"> Whatever your <span class="grand">OCCASION, </span> <span class="grand rouge">TASTE</span> <span class="grand">makes</span> it one to <span class="grand">remember!</span></p>
-                        </div> -->
-                        <!-- boutons -->
-                        <!-- <div class="d-flex justify-content-center align-items-start mt-lg-3">
-                            <button class=" bouton py-3 px-4 mx-3">PURCHASE THEME</button>
-                            <button class="bouton boutonR py-3 px-4 mx-3">LEARN MORE</button>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- 3ème" slide -->
-                <!-- <div class="slide carousel-item">
-                    <div class="container d-flex flex-column">
-                        <div class="my-lg-2 d-flex align-items-end justify-content-center">
-                            <p class="title text-center"> Whatever your <span class="grand">OCCASION, </span> <span class="grand rouge">TASTE</span> <span class="grand">makes</span> it one to <span class="grand">remember!</span></p>
-                        </div> -->
-                        <!-- boutons -->
-                        <!-- <div class="d-flex justify-content-center align-items-start mt-lg-3">
-                            <button class=" bouton py-3 px-4 mx-3">PURCHASE THEME</button>
-                            <button class="bouton boutonR py-3 px-4 mx-3">LEARN MORE</button>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
+        <!-- Bottom arrondi -->
+        <div class="bottomarrondi"></div>
     </header>
+    <!-- Ajouter le border bottom avec l'image arrondie -->
+
+    <!-- Section 1 -->
+        <!-- Background image -->
+    <section>
+            <!-- div avec 4 coins images (position) -->
+        <div>
+            <!-- Part 1 : Our story -->
+                <!-- Col -->
+            <div>
+                    <!-- Row -->
+                <div>
+                    <h1><span>Our</span> Story</h1>
+
+                </div>
+                    <!-- Row -->
+                <div>
+
+                </div>
+            </div>
+            <!-- Part 2 : Our Menu list -->
+            <div>
+
+            </div>
+        </div>
+
+
+    </section>
 
 
 
