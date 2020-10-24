@@ -7,13 +7,13 @@
             span
                 color: $red 
                 font-size: 50px
-
-                #list-tab
     div
         .boutonsliste
             a
                 font-family: Courgette
                 border: none
+                border-bottom: solid 1px $gray
+                border-right: solid 1px $gray
                 i
                     color: $gray
                 span
@@ -21,15 +21,42 @@
                     color: $dark
             .active
                 border-right: 5px $danger solid
+                border-bottom: solid 1 px $gray
                 i
                     color: $danger
+        .divlistecard
+                #list-home
+
+                        .card
+                            max-width: 45%
+                            max-height: max-content
+                            border: none
+                            border-bottom: solid 1px $gray
+                            background: none
+                            .card-img
+                                img
+                                    border-radius: 50%
+                                    border: 5px $gray solid
+                                    size: 100px
+
+
+// @media screen and (min-width: 1024px)
+    
+
+//Medium screen 
+// @media screen and (min-width: 600px) and (max-width: 1023px)
+    
+
+
+// Small screen
+@media screen and (min-width: 320px) and (max-width: 599px)
+    .card
+        max-width: 90%
+
+       
 
 
 
-                
 
-
-.card-img
-    border-radius: 50%
-    border: 5px $gray solid
-    // size: 100px
+    // Donner tailles media queries
+        // Attention bootstrap importnace

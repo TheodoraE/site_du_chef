@@ -10,33 +10,37 @@
     
     <header>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark text-white">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Logo en responsive: mobile -->
+            <div id="resp">
+                <img src="./public/images/logo.png" alt="">
+            </div>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <div class="navbar-nav mr-0 mt-2 mt-lg-0 w-100">
-                    <div class="nav-item active ul m-0 w-100 row align-items-center justify-content-end">
-                        <div class="divlink row w-75 p-0">    
-                            <a class="link nav-link w-25 text-white text-center" href="#">HOME <span class="sr-only">(current)</span></a>
-                            <a class="link nav-link w-25 text-white text-center" href="#">ABOUT US <span class="sr-only">(current)</span></a>
-                            <a class="link nav-link w-25 text-white text-center" href="#">MENU LIST <span class="sr-only">(current)</span></a>
-                            <a class="link nav-link w-25 text-white text-center" href="#">TEAM <span class="sr-only">(current)</span></a>
+                <div class="navbar-nav mr-0 mt-lg-0 w-100">
+                    <div class="nav-item active ul m-0 w-100 row align-items-center justify-content-lg-end">
+                        <div class="divlink row p-0" id="divlink">    
+                            <a class="link nav-link text-white text-center" href="#">HOME <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link text-white text-center" href="#">ABOUT US <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link text-white text-center" href="#">MENU LIST <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link text-white text-center" href="#">TEAM <span class="sr-only">(current)</span></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="nav-item logo active row m-0 justify-content-center">
-                <a class="nav-link" href="#"><img src="./public/images/logo.png" alt=""> <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#"><img src="./public/images/logo.png" alt="" id="logonav"> <span class="sr-only">(current)</span></a>
             </div>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <div class="navbar-nav mr-0 mt-2 mt-lg-0 w-100">
                     <div class="nav-item active ul m-0 w-100 row align-items-center">
-                        <div class="divlink row w-75 p-0">
-                            <a class="link nav-link w-25 text-white text-center" href="#">TESTIMONIALS <span class="sr-only">(current)</span></a>
-                            <a class="link nav-link w-25 text-white text-center" href="#">RESERVATION <span class="sr-only">(current)</span></a>
-                            <a class="link nav-link w-25 text-white text-center" href="#">CONTACT US <span class="sr-only">(current)</span></a>
-                            <a class="link nav-link w-25 text-white text-center" href="#">BLOG <span class="sr-only">(current)</span></a>
+                        <div class="divlink row p-0" id="divlink">
+                            <a class="link nav-link text-white text-center" href="#">RESERVATION <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link text-white text-center" href="#">TESTIMONIALS <span class="sr-only">(current)</span></a>
+                            <a class="link nav-link text-white text-center" href="#">BLOG<span class="sr-only">(current)</span></a>
+                            <a class="link nav-link text-white text-center" href="#">CONTACT US <span class="sr-only">(current)</span></a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +99,7 @@
                 <div class="col-lg-3"><img src="./public/images/box-left-top.png" alt=""></div>
                 <div class="col-lg-6 text-center">
                     <h1 class="pt-5"><span>OUR</span> Story</h1>
-                    <img src="./public/images/decoration_line.png" alt="" class="pb-5">
+                    <!-- <img src="./public/images/decoration_line.png" alt="" class="pb-5"> -->
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, nobis accusantium sint officiis blanditiis explicabo maxime distinctio eligendi magni sunt nihil soluta, vitae ea quisquam nesciunt laboriosam optio quas dolores atque quo incidunt voluptates! Architecto reprehenderit cupiditate repellat deserunt, ipsam similique quos facilis, neque incidunt placeat suscipit harum veniam? Earum quasi eos porro quod error iure omnis a sequi perspiciatis ducimus, numquam necessitatibus soluta deleniti vel facere eum, officiis corporis saepe cum?</p>
                 </div>
                 <div class="col-lg-3 d-flex justify-content-end align-items-start"><img src="./public/images/box-right-top.png" alt=""></div>
@@ -103,19 +107,19 @@
             <!-- 2ème row : Our Menu List -->
             <div class="titremenu d-flex flex-column justify-content-center">
                 <h1 class="pt-5 text-center"><span>OUR</span> Menu List</h1>
-                <img src="./public/images/decoration_line.png" alt="">
+                <!-- <img src="./public/images/decoration_line.png" alt=""> -->
             </div>
             <div class="row my-5">
                 <!-- Boutons liste gauche -->
                 <div class="boutonsliste col-2">
                   <div class="list-group" id="list-tab" role="tablist">
-                    <a class="ap list-group-item list-group-item-action text-center bg-light active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-mug-hot fa-3x my-2"></i> <br><span>BreakFast</span> </a>
-                    <a class="ap list-group-item list-group-item-action text-center bg-light" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><i class="fas fa-hamburger fa-3x my-2"></i><br> <span>Lunch</span></a>
-                    <a class="ap list-group-item list-group-item-action text-center bg-light" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fas fa-utensils fa-3x my-2"></i><br> <span>Snacks</span></a>
-                    <a class="ap list-group-item list-group-item-action text-center bg-light" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fas fa-mug-hot fa-3x my-2"></i><br> <span>Dinner</span></a>
+                    <a class="list-group-item list-group-item-action text-center bg-light active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-mug-hot fa-3x my-2"></i> <br><span>BreakFast</span> </a>
+                    <a class="list-group-item list-group-item-action text-center bg-light" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><i class="fas fa-hamburger fa-3x my-2"></i><br> <span>Lunch</span></a>
+                    <a class="list-group-item list-group-item-action text-center bg-light" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fas fa-utensils fa-3x my-2"></i><br> <span>Snacks</span></a>
+                    <a class="list-group-item list-group-item-action text-center bg-light" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><i class="fas fa-mug-hot fa-3x my-2"></i><br> <span>Dinner</span></a>
                   </div>
                 </div>
-                <div class="col-10">
+                <div class="divlistecard col-10">
                   <div class="tab-content" id="nav-tabContent">
 
                       <!-- 1ère page : Breakfast -->
@@ -123,10 +127,10 @@
                         <!-- 1ère row -->
                         <div class="row">
                             <!-- CARD GAUCHE -->
-                            <div class="card mb-3" style="max-width: 45%; max-height: max-content;">
+                            <div class="card mb-3">
                                 <div class="row no-gutters d-flex align-items-center">
-                                  <div class="col-md-3">
-                                    <img src="./public/images/menu_image_1.jpg" class="card-img" alt="...">
+                                  <div class="col-md-3 card-img">
+                                    <img src="./public/images/menu_image_1.jpg" alt="...">
                                   </div>
                                   <div class="col-md-7">
                                     <div class="card-body">
@@ -182,7 +186,7 @@
             <!-- 3ème row : bottom -->
             <div class="row">
                 <div class="col-lg-4"><img src="./public/images/box-bottom-left.png" alt=""></div>
-                <div class="col-lg-4 d-flex align-items-center"><img src="./public/images/decoration_line.png" alt=""></div>
+                <!-- <div class="col-lg-4 d-flex align-items-center"><img src="./public/images/decoration_line.png" alt=""></div> -->
                 <div class="col-lg-4 d-flex justify-content-end align-items-start"><img src="./public/images/box-bottom_right.png"></div>
             </div>
         </div>

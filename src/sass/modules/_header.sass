@@ -7,21 +7,21 @@ body
         height: 100vh
         position: relative
         nav
-            .divlink
-                border-top: $gray solid 2px
-                border-bottom: $gray solid 2px
-                width: 35%
-                margin: 2.5% 0% 1% 0%
-                .link
-                    padding: 2%
-                    color: $white
-                    font-weight: bold
-                    &:hover
-                        background-color: $red
-            .logo
-                width: 12%
-                a
-                    padding-bottom: 0.5%
+                .divlink
+                    border-top: $gray solid 1px
+                    border-bottom: $gray solid 1px
+                    // width: 35%
+                    margin: 2.5% 0% 1% 0%
+                    .link
+                        padding: 3% 0%
+                        color: $white
+                        font-weight: bold
+                        &:hover
+                            background-color: $red
+                .logo
+                    width: 12%
+                    a
+                        padding-bottom: 0.5%
 
         #carouselExampleSlidesOnly
             ol
@@ -63,15 +63,53 @@ body
 
             
 
-// @media screen and (max-width: 760px)
-//     header
-//         #carouselExampleSlidesOnly
-//             p
-//                 font-size: 20px
-//                 width: 50%
-//             .grand
-//                 font-size: 30px
+@media screen and (min-width: 1024px)
+    nav
+        #resp
+            display: none
+            visibility: hidden
+        #divlink
+            width: 75%
+            a
+                width: 25%
+
+//Medium screen 
+@media screen and (min-width: 600px) and (max-width: 1023px)
+    nav
+        #resp
+        #divlink
+            width: 100%
+            a
+                width: 25%
+        div
+            #logonav
+                display: none
+                visibility: hidden
+                height: 0px
+                width: 0px 
 
 
-    
+// Small screen
+@media screen and (min-width: 320px) and (max-width: 599px)
+    nav
+        #resp
+        #divlink
+            width: 100%
+            a
+                width: 25%
+                font-size: 10px
+        div
+            #logonav
+                display: none
+                visibility: hidden
+                height: 0px
+                width: 0px 
+                    
 
+
+        // #carouselExampleSlidesOnly
+        //     p
+        //         font-size: 20px
+        //         width: 50%
+        //     .grand
+        //         font-size: 30px
