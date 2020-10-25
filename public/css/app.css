@@ -16031,18 +16031,41 @@ body header .bottomarrondi {
   border-radius: 10px;
 }
 
-.imagebg .bouton3 {
+.bouton3 {
   font-weight: light;
   border: none;
   border-radius: 30px;
 }
 
-#blog #imgBlog img {
-  border-radius: 10px;
+#blog div #imgBlog {
+  position: relative;
+}
+
+#blog div #imgBlog img {
+  border-radius: 20px;
   border: 2px solid #c8cccf;
 }
 
-#blog .stat {
+#blog div .stat {
   background-color: #dc3545;
   border-radius: 10px;
+  padding: 2% 6% 0% 3%;
+  color: #fff;
+  width: max-content;
+  position: absolute;
+  left: 15%;
+  bottom: 13%;
+}
+
+#blog div .stat p {
+  font-size: 18px;
+}
+
+#blog div .stat p .chiffre {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#blog div .stat p .barre {
+  font-size: 30px;
 }
