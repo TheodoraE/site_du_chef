@@ -16012,6 +16012,12 @@ body header .bottomarrondi {
   }
 }
 
+#sec2 {
+  background-image: url(../../public/images/team_background.jpg);
+  height: cover;
+  width: cover;
+}
+
 .imagebg {
   background-image: url(../../public/images/book_table_bg.jpg);
   border-radius: 10px;
@@ -16068,4 +16074,34 @@ body header .bottomarrondi {
 
 #blog div .stat p .barre {
   font-size: 30px;
+}
+
+#sec4 {
+  background-image: url(../../public/images/testimonials_background.jpg);
+}
+
+#sec4 .temoins {
+  padding: 1% 8%;
+  height: fit-content;
+}
+
+#sec4 .temoins div div {
+  margin: 2%;
+}
+
+#sec4 .temoins div div img {
+  border-radius: 50%;
+  border: #c8cccf 5px solid;
+  height: 160px;
+}
+
+#sec4 .temoins .temointexte {
+  border: solid 1px #c8cccf;
+  border-radius: 10px;
+  padding: 3% 1% 3% 2%;
+  height: fit-content;
+}
+
+#sec4 .temoins .temointexte p {
+  margin: 0%;
 }
