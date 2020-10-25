@@ -15956,13 +15956,13 @@ body header .bottomarrondi {
 }
 
 .boutonsliste a span {
-  font-size: 25px;
+  font-size: 30px;
   color: #343a40;
 }
 
 .boutonsliste .active {
   border-right: 5px #dc3545 solid;
-  border-bottom: solid 1 px #c8cccf;
+  border-bottom: solid 1px #c8cccf;
 }
 
 .boutonsliste .active i {
@@ -15976,12 +15976,12 @@ body header .bottomarrondi {
   background: none;
 }
 
-.card div .card-img img {
+.card-img img {
   border-radius: 50%;
   border: 5px #c8cccf solid;
 }
 
-.card div .dollar p {
+.dollar p {
   background-color: #ebe6e6;
   font-size: 20px;
 }
@@ -15994,10 +15994,10 @@ body header .bottomarrondi {
 }
 
 @media screen and (min-width: 1024px) {
-  .divlistecard #list-home .card {
+  .divlistecard #list-home .card, .divlistecard #list-profile .card, .divlistecard #list-messages .card, .divlistecard #list-settings .card {
     width: 48%;
   }
-  .divlistecard #list-home .card div .row {
+  .divlistecard #list-home .card div .row, .divlistecard #list-profile .card div .row, .divlistecard #list-messages .card div .row, .divlistecard #list-settings .card div .row {
     width: 100%;
   }
 }

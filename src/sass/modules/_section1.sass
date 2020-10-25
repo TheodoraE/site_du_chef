@@ -23,27 +23,27 @@
         i
             color: $gray
         span
-            font-size: 25px
+            font-size: 30px
             color: $dark
     .active
         border-right: 5px $danger solid
-        border-bottom: solid 1 px $gray
+        border-bottom: solid 1px $gray
         i
             color: $danger
+
 .card
     max-height: max-content
     border: none
     border-bottom: solid 1px $gray
     background: none
-    div
-        .card-img
-            img
-                border-radius: 50%
-                border: 5px $gray solid
-        .dollar
-            p
-                background-color: #ebe6e6
-                font-size: 20px
+.card-img
+    img
+        border-radius: 50%
+        border: 5px $gray solid
+.dollar
+    p
+        background-color: #ebe6e6
+        font-size: 20px
 .imgDecoS1
     background-image: url("../../public/images/decoration_line.png")
     background-repeat: no-repeat
@@ -52,7 +52,7 @@
 
 @media screen and (min-width: 1024px)
     .divlistecard
-                #list-home
+                #list-home, #list-profile, #list-messages, #list-settings
 
                         .card
                             width: 48%
@@ -67,7 +67,7 @@
 
 // Small screen
 @media screen and (min-width: 320px) and (max-width: 599px)
-    
+
 
     .divlistecard
                 #list-home
