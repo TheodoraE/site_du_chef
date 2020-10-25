@@ -16105,3 +16105,11 @@ body header .bottomarrondi {
 #sec4 .temoins .temointexte p {
   margin: 0%;
 }
+
+#sec5 {
+  background-image: url(../../public/images/main_bg.jpg);
+}
+
+#sec5 div:nth-child(2) div:nth-child(2) {
+  border-radius: 12px;
+}
