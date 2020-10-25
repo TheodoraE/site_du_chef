@@ -15888,8 +15888,11 @@ body header .bottomarrondi {
   nav div #logonav {
     display: none;
     visibility: hidden;
-    height: 0px;
-    width: 0px;
+    height: 0%;
+    width: 0%;
+  }
+  #carouselExampleSlidesOnly #carousel .slide .container p {
+    width: 75%;
   }
 }
 
@@ -15907,14 +15910,14 @@ body header .bottomarrondi {
     height: 0px;
     width: 0px;
   }
-  #carousel .slide .container p {
+  #carouselExampleSlidesOnly #carousel .slide .container p {
     font-size: 30px;
     width: 75%;
   }
-  #carousel .slide .container p .grand {
+  #carouselExampleSlidesOnly #carousel .slide .container p .grand {
     font-size: 45px;
   }
-  #carousel .slide .container .boutons {
+  #carouselExampleSlidesOnly #carousel .slide .container .boutons {
     font-size: 10px;
   }
 }
@@ -15923,57 +15926,108 @@ body header .bottomarrondi {
   background-image: url("../../public/images/main_bg.jpg");
 }
 
-.contenu1 .titremenu h1 {
+.titreh1 {
   font-family: Courgette;
   margin-bottom: 0%;
+  background-image: url(../../public/images/decoration_line.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: bottom;
 }
 
-.contenu1 .titremenu h1 span {
+.titreh1 p {
+  color: #343a40;
+}
+
+.titreh1 span {
   color: #dc3545;
   font-size: 50px;
 }
 
-.contenu1 div .boutonsliste a {
+.titreh1 div .boutonsliste a {
   font-family: Courgette;
   border: none;
   border-bottom: solid 1px #c8cccf;
   border-right: solid 1px #c8cccf;
 }
 
-.contenu1 div .boutonsliste a i {
+.titreh1 div .boutonsliste a i {
   color: #c8cccf;
 }
 
-.contenu1 div .boutonsliste a span {
+.titreh1 div .boutonsliste a span {
   font-size: 25px;
   color: #343a40;
 }
 
-.contenu1 div .boutonsliste .active {
+.titreh1 div .boutonsliste .active {
   border-right: 5px #dc3545 solid;
   border-bottom: solid 1 px #c8cccf;
 }
 
-.contenu1 div .boutonsliste .active i {
+.titreh1 div .boutonsliste .active i {
   color: #dc3545;
 }
 
-.contenu1 div .divlistecard #list-home .card {
-  max-width: 45%;
+.card {
   max-height: max-content;
   border: none;
   border-bottom: solid 1px #c8cccf;
   background: none;
 }
 
-.contenu1 div .divlistecard #list-home .card .card-img img {
+.card div .card-img img {
   border-radius: 50%;
   border: 5px #c8cccf solid;
-  size: 100px;
+}
+
+.card div .dollar p {
+  background-color: #ebe6e6;
+  font-size: 20px;
+}
+
+.imgDecoS1 {
+  background-image: url("../../public/images/decoration_line.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .divlistecard #list-home .card {
+    width: 48%;
+  }
+  .divlistecard #list-home .card div .row {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
-  .card {
-    max-width: 90%;
+  .divlistecard #list-home .card {
+    width: 100%;
   }
+  .divlistecard #list-home .card div .row {
+    width: 100%;
+    margin: 0%;
+  }
+}
+
+.imagebg {
+  background-image: url(../../public/images/book_table_bg.jpg);
+  border-radius: 10px;
+}
+
+.imagebg p {
+  margin: 5% 0%;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.imagebg p span {
+  font-size: 25px;
+}
+
+.imagebg .radius {
+  border-radius: 10px;
+  color: #343a40;
 }

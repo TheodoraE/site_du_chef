@@ -87,8 +87,14 @@ body
             #logonav
                 display: none
                 visibility: hidden
-                height: 0px
-                width: 0px 
+                height: 0%
+                width: 0%
+    #carouselExampleSlidesOnly
+        #carousel
+            .slide
+                .container
+                    p
+                        width: 75%
 
 // Mobile
 @media screen and (min-width: 320px) and (max-width: 599px)
@@ -107,13 +113,14 @@ body
                 height: 0px
                 width: 0px 
     // carousel
-    #carousel
-        .slide
-            .container
-                p
-                    font-size: 30px
-                    width: 75%
-                    .grand
-                        font-size: 45px
-                .boutons
-                    font-size: 10px
+    #carouselExampleSlidesOnly
+        #carousel
+            .slide
+                .container
+                    p
+                        font-size: 30px
+                        width: 75%
+                        .grand
+                            font-size: 45px
+                    .boutons
+                        font-size: 10px
