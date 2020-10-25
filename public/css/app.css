@@ -15944,28 +15944,28 @@ body header .bottomarrondi {
   font-size: 50px;
 }
 
-.titreh1 div .boutonsliste a {
+.boutonsliste a {
   font-family: Courgette;
   border: none;
   border-bottom: solid 1px #c8cccf;
   border-right: solid 1px #c8cccf;
 }
 
-.titreh1 div .boutonsliste a i {
+.boutonsliste a i {
   color: #c8cccf;
 }
 
-.titreh1 div .boutonsliste a span {
+.boutonsliste a span {
   font-size: 25px;
   color: #343a40;
 }
 
-.titreh1 div .boutonsliste .active {
+.boutonsliste .active {
   border-right: 5px #dc3545 solid;
   border-bottom: solid 1 px #c8cccf;
 }
 
-.titreh1 div .boutonsliste .active i {
+.boutonsliste .active i {
   color: #dc3545;
 }
 
@@ -16029,5 +16029,20 @@ body header .bottomarrondi {
 
 .imagebg .radius {
   border-radius: 10px;
-  color: #343a40;
+}
+
+.imagebg .bouton3 {
+  font-weight: light;
+  border: none;
+  border-radius: 30px;
+}
+
+#blog #imgBlog img {
+  border-radius: 10px;
+  border: 2px solid #c8cccf;
+}
+
+#blog .stat {
+  background-color: #dc3545;
+  border-radius: 10px;
 }
