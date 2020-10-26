@@ -15782,11 +15782,11 @@ readers do not read off random characters that represent icons */
   scroll-behavior: smooth;
 }
 
-* body {
+body {
   margin: 0%;
 }
 
-* body header {
+body header {
   background: linear-gradient(rgba(22, 20, 20, 0.877), rgba(0, 0, 0, 0.849)), url("../images/banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -15794,73 +15794,73 @@ readers do not read off random characters that represent icons */
   position: relative;
 }
 
-* body header nav .divlink {
+body header nav .divlink {
   border-top: #c8cccf solid 1px;
   border-bottom: #c8cccf solid 1px;
   margin: 2.5% 0% 1% 0%;
 }
 
-* body header nav .divlink .link {
+body header nav .divlink .link {
   padding: 3% 0%;
   color: #fff;
   font-weight: bold;
 }
 
-* body header nav .divlink .link:hover {
+body header nav .divlink .link:hover {
   background-color: #dc3545;
 }
 
-* body header nav .logo {
+body header nav .logo {
   width: 12%;
 }
 
-* body header nav .logo a {
+body header nav .logo a {
   padding-bottom: 0.5%;
 }
 
-* body header #carouselExampleSlidesOnly ol li {
+body header #carouselExampleSlidesOnly ol li {
   width: 15px;
   height: 15px;
   border-radius: 100%;
 }
 
-* body header #carouselExampleSlidesOnly ol .active {
+body header #carouselExampleSlidesOnly ol .active {
   border: 4px #343a40 solid;
   width: 13px;
   height: 13px;
 }
 
-* body header #carouselExampleSlidesOnly div {
+body header #carouselExampleSlidesOnly div {
   height: 80vh;
 }
 
-* body header #carouselExampleSlidesOnly div .slide p {
+body header #carouselExampleSlidesOnly div .slide p {
   color: #fff;
   font-size: 50px;
   font-family: Courgette;
   width: 65%;
 }
 
-* body header #carouselExampleSlidesOnly div .slide .grand {
+body header #carouselExampleSlidesOnly div .slide .grand {
   font-size: 70px;
 }
 
-* body header #carouselExampleSlidesOnly div .slide .rouge {
+body header #carouselExampleSlidesOnly div .slide .rouge {
   color: #dc3545;
 }
 
-* body header #carouselExampleSlidesOnly div .slide .boutons .bouton {
+body header #carouselExampleSlidesOnly div .slide .boutons .bouton {
   font-weight: light;
   border: none;
   border-radius: 30px;
 }
 
-* body header #carouselExampleSlidesOnly div .slide .boutons .boutonR {
+body header #carouselExampleSlidesOnly div .slide .boutons .boutonR {
   background-color: #dc3545;
   color: #fff;
 }
 
-* body header .bottomarrondi {
+body header .bottomarrondi {
   background-image: url("../../public/images/bottom_decoration_img.png");
   position: absolute;
   width: 100%;
@@ -16007,10 +16007,10 @@ readers do not read off random characters that represent icons */
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
-  .divlistecard #list-home .card {
+  .divlistecard #list-home .card, .divlistecard #list-profile .card, .divlistecard #list-messages .card, .divlistecard #list-settings .card {
     width: 100%;
   }
-  .divlistecard #list-home .card div .row {
+  .divlistecard #list-home .card div .row, .divlistecard #list-profile .card div .row, .divlistecard #list-messages .card div .row, .divlistecard #list-settings .card div .row {
     width: 100%;
     margin: 0%;
   }
@@ -16082,6 +16082,40 @@ readers do not read off random characters that represent icons */
 
 #blog div .description {
   padding: 10% 5%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  #blog div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #blog div #imgBlog {
+    position: relative;
+  }
+  #blog div .stat {
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    position: absolute;
+    left: 45%;
+    bottom: 51%;
+  }
+  #blog div .stat p {
+    font-size: 12px;
+    margin: 4% 8%;
+  }
+  #blog div .stat p .chiffre {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #blog div .stat p .barre {
+    font-size: 20px;
+  }
+  #blog div .description {
+    padding: 80% 0% 0% 0%;
+  }
 }
 
 #sec4 {
