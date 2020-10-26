@@ -16006,6 +16006,12 @@ body header .bottomarrondi {
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .boutonsliste a span {
+    font-size: 25px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .divlistecard #list-home .card, .divlistecard #list-profile .card, .divlistecard #list-messages .card, .divlistecard #list-settings .card {
     width: 100%;
@@ -16082,6 +16088,38 @@ body header .bottomarrondi {
 
 #blog div .description {
   padding: 10% 5%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  #blog div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #blog div #imgBlog {
+    position: relative;
+  }
+  #blog div .stat {
+    padding: 1%;
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    bottom: 32%;
+  }
+  #blog div .stat p {
+    font-size: 12px;
+    margin: 2% 3%;
+  }
+  #blog div .stat p .chiffre {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #blog div .stat p .barre {
+    font-size: 20px;
+  }
+  #blog div .description {
+    padding: 20% 0% 0% 0%;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
@@ -16170,7 +16208,6 @@ footer .toparrondi {
 
 #footer {
   background-image: url(../../public/images/footer_background.jpg);
-  background-repeat: no-repeat;
   height: cover;
   width: cover;
 }
