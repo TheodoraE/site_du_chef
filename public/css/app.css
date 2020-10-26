@@ -16020,6 +16020,10 @@ body header .bottomarrondi {
     width: 100%;
     margin: 0%;
   }
+  .corner {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 #sec2 {
