@@ -15896,7 +15896,7 @@ body header .bottomarrondi {
     height: 0%;
     width: 0%;
   }
-  #carouselExampleSlidesOnly #carousel .slide .container p {
+  #carouselExampleIndicators #carousel .slide .container p {
     width: 75%;
   }
 }
@@ -15915,14 +15915,14 @@ body header .bottomarrondi {
     height: 0px;
     width: 0px;
   }
-  #carouselExampleSlidesOnly #carousel .slide .container p {
+  #carouselExampleIndicators #carousel .slide .container p {
     font-size: 30px;
     width: 75%;
   }
-  #carouselExampleSlidesOnly #carousel .slide .container p .grand {
+  #carouselExampleIndicators #carousel .slide .container p .grand {
     font-size: 45px;
   }
-  #carouselExampleSlidesOnly #carousel .slide .container .boutons {
+  #carouselExampleIndicators #carousel .slide .container .boutons {
     font-size: 10px;
   }
 }
@@ -16324,4 +16324,16 @@ footer .toparrondi {
   width: 100%;
   background-color: #dc3545;
   margin-top: 2%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  footer h3 {
+    text-align: center;
+  }
+  footer p {
+    text-align: center;
+  }
+  #bouttonsfooter {
+    padding-left: 15%;
+  }
 }
