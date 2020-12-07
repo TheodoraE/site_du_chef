@@ -50,11 +50,11 @@
             </div>
         </nav>
         <!-- Carousel -->
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner" id="carousel">
                 <!-- 1ère slide -->
@@ -946,8 +946,8 @@
     </section>
 
     <!-- Section 3 : Reservation + Blog -->
-    <section class="contenu1 p-lg-5 p-3 pt-5 sec3" id="sec3">
-        <!-- dic bg-blanc -->
+    <section class="contenu1 p-lg-5 p-3 sec3" id="sec3">
+        <!-- div bg-blanc -->
         <div class="bg-light mx-lg-5 mx-sm-4">
             <!-- top -->
             <div class="row m-0 titremenu">
@@ -955,82 +955,78 @@
                 <div class="col-lg-6 col-md-8 col-sm-12 text-center">
                     <h1 class="titreh1 pt-5 mb-5"><span>BOOK</span> Your Table</h1>
                 </div>
-                <div class="col-lg-3 col-md-2 corner d-flex justify-content-end align-items-end"><img src="./public/images/box-right-top-grey.png" alt=""></div>
+                <div class="col-lg-3 col-md-2 corner d-flex justify-content-end align-items-start"><img src="./public/images/box-right-top-grey.png" alt=""></div>
             </div>
             <!-- formulaire -->
-            <div class="container imagebg mt-5">
-                <!-- titre -->
-                <div class="row m-0 text-white w-100">
-                <p class="text-center w-100">For any query please call us at : <span>+91-1234567890</span></p>
-                </div>
-                <!-- Form -->
-                <form class="row m-0container">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-5">
-                        <div class="form-group">
-                            <div class="form-group">
-                                <input type="email" class="form-control radius" id="exampleFormControlInput1" placeholder="Enter Full Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control radius" id="exampleFormControlInput1" placeholder="Phone Number">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control radius" id="exampleFormControlInput1" placeholder="Date">
-                            </div>
-                            <div class="form-group">
-                                <select class="form-control radius" id="exampleFormControlSelect1">
-                                <option>Occasion</option>
-                                <option>Occasion1</option>
-                                <option>Occasion2</option>
-                                <option>Occasion3</option>
-                                <option>Occasion4</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">          
-                        <div class="form-group">
-                            <div class="form-group">
-                                <input type="email" class="form-control radius" id="exampleFormControlInput1" placeholder="Enter Id">
-                            </div>
-                            <div class="form-group">
-                                <select class="form-control radius" id="exampleFormControlSelect1">
-                                <option>No Of Person</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5 and more</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control radius" id="exampleFormControlInput1" placeholder="Time">
-                            </div>
-                            <div class="form-group">
-                                <select class="form-control radius" id="exampleFormControlSelect1">
-                                <option>Cuisine</option>
-                                <option>Asian</option>
-                                <option>Italian</option>
-                                <option>French</option>
-                                <option>Hispanic</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-1"></div>
+            <div class="card bg-dark text-white formulaire">
+              <img src="./public/images/book_table_bg.jpg" class="card-img" style="height: 550px; border-radius: 20px;" alt="...">
+              <div class="card-img-overlay p-5">
+                <h5 class="card-title">For any query please call us at : <span>+91-1234567890</span></h5>
+                <form class="row m-0 w-100 d-flex flex-wrap">
+                  <div class="form-group taille">
+                    <input type="email" class="form-control radius" id="exampleFormControlInput1"
+                      placeholder="Enter Full Name">
+                  </div>
+                  <div class="form-group taille">
+                    <input type="email" class="form-control radius" id="exampleFormControlInput1"
+                      placeholder="Enter Id">
+                  </div>
+                  <div class="form-group taille">
+                    <input type="email" class="form-control radius" id="exampleFormControlInput1"
+                      placeholder="Phone Number">
+                  </div>
+                  <div class="form-group taille">
+                    <select class="form-control radius" id="exampleFormControlSelect1">
+                      <option>No Of Person</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5 and more</option>
+                    </select>
+                  </div>
+                  <div class="form-group taille">
+                    <input type="email" class="form-control radius" id="exampleFormControlInput1"
+                      placeholder="Date">
+                  </div>
+                  <div class="form-group taille">
+                    <input type="email" class="form-control radius" id="exampleFormControlInput1"
+                      placeholder="Time">
+                  </div>
+                  <div class="form-group taille">
+                    <select class="form-control radius" id="exampleFormControlSelect1">
+                      <option>Occasion</option>
+                      <option>Occasion1</option>
+                      <option>Occasion2</option>
+                      <option>Occasion3</option>
+                      <option>Occasion4</option>
+                    </select>
+                  </div>
+                  <div class="form-group taille">
+                    <select class="form-control radius" id="exampleFormControlSelect1">
+                      <option>Cuisine</option>
+                      <option>Asian</option>
+                      <option>Italian</option>
+                      <option>French</option>
+                      <option>Hispanic</option>
+                    </select>
+                  </div>
                 </form>
                 <div class="row m-0 d-flex justify-content-center py-5">
-                    <button class="bg-danger text-white py-3 px-4 mx-2 bouton3">BOOK NOW</button>
+                  <button class="bg-danger text-white py-3 px-4 mx-2 bouton3">BOOK NOW</button>
                 </div>
+
+              </div>
             </div>
+
             <!-- 2ème partie : Our Blog -->
-            <div class="container mt-5" id="Blog">
+            <div class="container" id="Blog">
                 <!-- titre -->
-                <div class="row m-0 titremenu w-100">
+                <div class="row m-0 titremenu w-100 ">
                     <h1 class="titreh1 pt-5 mb-5 w-100 text-center"><span>OUR</span> Blog</h1>
                 </div>
                 <div class="row m-0" id="blog">
                     <!-- 1ère publi -->
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <div id="imgBlog"><img src="./public/images/blog_img1.jpg" alt="" class="w-100"></div>
                         <div class="stat">
                             <p><span class="chiffre">12</span> April 2017<span class="barre">/</span> <span class="chiffre">20</span> Comments<span class="barre">/</span> <span class="chiffre">35</span> Likes</p>
@@ -1041,7 +1037,7 @@
                         </div>
                     </div>
                     <!-- 2ème publi -->
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <div id="imgBlog"><img src="./public/images/blog_img2.jpg" alt="" class="w-100"></div>
                         <div class="stat">
                             <p><span class="chiffre">12</span> April 2017<span class="barre">/</span> <span class="chiffre">20</span> Comments<span class="barre">/</span> <span class="chiffre">35</span> Likes</p>
@@ -1053,12 +1049,12 @@
                     </div>
                 </div>
                 <!-- bouton -->
-                <div class="row m-0 d-flex justify-content-center pt-5">
+                <div id="divBtn" class="row m-0 d-flex justify-content-center">
                   <button class="bg-danger text-white py-3 px-4 bouton3">KNOW MORE</button>
               </div>
             </div>
           <!-- bottom -->
-            <div class="row">
+            <div class="row m-0">
                 <div class="col-6 corner"><img src="./public/images/box-bottom-left-grey.png" alt=""></div>
                 <div class="col-6 corner d-flex justify-content-end align-items-end"><img src="./public/images/box-bottom_right-grey.png"></div>
             </div>
@@ -1076,8 +1072,8 @@
       <!-- témoignages -->
       <div class="row temoins m-0 pb-5">
         <!-- 1er temoin -->
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div><img src="./public/images/testimonial1.jpg" alt=""></div>
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
+          <div class="m-0 text-sm-center"><img src="./public/images/testimonial1.jpg" alt=""></div>
           <div class="temointexte text-white">
             <h5>Lorem Ipsum</h5>
             <span class="text-danger">Manager</span>
@@ -1085,13 +1081,13 @@
           </div>
         </div>
         <!-- 2ème temoin -->
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
           <div class="temointexte text-white">
             <h5>Lorem Ipsum</h5>
             <span class="text-danger">Manager</span>
             <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit soluta ipsam animi facere nam quisquam vel!</p>
           </div>
-          <div><img src="./public/images/testimonial1.jpg" alt=""></div>
+          <div class="m-0 text-sm-center"><img src="./public/images/testimonial1.jpg" alt=""></div>
         </div>
       </div>
     </section>
